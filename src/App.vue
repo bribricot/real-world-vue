@@ -1,3 +1,4 @@
+// Root component of our App, other components are nested with this.
 <template>
   <div id="nav">
     <router-link to="/">Home</router-link> |
@@ -26,5 +27,9 @@
 
 #nav a.router-link-exact-active {
   color: #42b983;
+}
+
+h4 {
+	font-size: 20px;
 }
 </style>
