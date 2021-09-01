@@ -12,7 +12,7 @@
 import EventCard from "@/components/EventCard.vue";
 
 export default {
-  name: "Home",
+  name: "EventList",
   components: {
     EventCard,
   },
@@ -22,7 +22,7 @@ export default {
   		{
 			id: 5928101,
       		category: 'animal welfare',
-	      	title: 'Cat Adoption Day',
+	      	title: 'Dentist appointement',
 	      	description: 'Find your new feline friend at this event.',
 	      	location: 'Meow Town',
 	      	date: 'January 28, 2022',
@@ -33,7 +33,7 @@ export default {
   		{
   			id: 4582797,
           	category: 'food',
-          	title: 'Community Gardening',
+          	title: 'Roule d\'amour dans l\'herbe',
           	description: 'Join us as we tend to the community edible plants.',
           	location: 'Flora City',
           	date: 'March 14, 2022',
@@ -44,7 +44,7 @@ export default {
   		{
   			id: 8419988,
           	category: 'sustainability',
-          	title: 'Beach Cleanup',
+          	title: 'Bébé nageur session',
           	description: 'Help pick up trash along the shore.',
           	location: 'Playa Del Carmen',
           	date: 'July 22, 2022',
