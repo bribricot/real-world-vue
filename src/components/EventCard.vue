@@ -1,9 +1,13 @@
 // Home.vue is his parent
 <template>
+<!--Like a wrapper, it's gonna display the DisplayDetails when we click. -->
+  <router-link
+    class="event-link" :to="{ name: 'EventDetails', params: { id: event.id } }"> <!--Object name of our router-->
 	<div class="event-card">
 		<span> @ {{ event.time }} on {{ event.date }}</span>
 		<h4>{{ event.title }}</h4>
 	</div>
+</router-link>
 </template>
 
 <script>

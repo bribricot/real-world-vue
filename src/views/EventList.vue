@@ -8,9 +8,9 @@
 </template>
 
 <script>
-// @ is an alias to /src
-import EventCard from "@/components/EventCard.vue"
-import EventService from "@/services/EventService.js"
+
+import EventCard from "@/components/EventCard.vue" // @ is an alias to /src
+import EventService from "@/services/EventService.js" // @ is an alias to /src
 
 export default {
   name: "EventList",
@@ -22,7 +22,7 @@ export default {
   		events: null
   	}
   },
- created () {
+  created () {
  	EventService.getEvents()
  	// axios.get(
  	// 	"http://my-json-server.typicode.com/bribricot/real-world-vue/events"
@@ -30,9 +30,6 @@ export default {
  	.then(response => {
  		// To know if we receive the data : console.log("events:", response.data)
  		this.events = response.data
- 	})
- 	.catch(error => {
- 		console.log(error)
  	})
  }
 }
@@ -43,5 +40,9 @@ export default {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
+
+	}
+	.events:visited {
+		color: black;
 	}
 </style>
