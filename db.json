@@ -2,10 +2,10 @@
     "events":[
       {
         "id":5928101,
-        "category":"animal welfare",
+        "category":"health",
         "title":"Dentist appointement",
-        "description":"Find your new feline friend at this event.",
-        "location":"Meow Town",
+        "description":"It's scary but it's worth it.",
+        "location":"Tooth Town",
         "date":"January 28, 2022",
         "time":"12:00",
         "petsAllowed":true,
@@ -13,9 +13,9 @@
       },
       {
         "id":4582797,
-        "category":"food",
+        "category":"grass",
         "title":"Roule d\\'amour dans l\\'herbe",
-        "description":"Join us as we tend to the community edible plants.",
+        "description":"It's fluffy, and sometimes you can even find pokémons",
         "location":"Flora City",
         "date":"March 14, 2022",
         "time":"10:00",
@@ -24,9 +24,9 @@
       },
       {
         "id":8419988,
-        "category":"sustainability",
+        "category":"water",
         "title":"Bébé nageur session",
-        "description":"Help pick up trash along the shore.",
+        "description":"Find a new way to deep dive, with extra tips !",
         "location":"Playa Del Carmen",
         "date":"July 22, 2022",
         "time":"11:00",

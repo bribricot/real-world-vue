@@ -40,9 +40,5 @@ export default {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-
-	}
-	.events:visited {
-		color: black;
 	}
 </style>
